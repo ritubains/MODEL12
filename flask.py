@@ -13,6 +13,7 @@ def hello():
     print(merged_mat_test.shape)
     result = sigmod((np.dot(merged_mat_test, theta.T)))
     print("changes in flask")
+    print("barnch changes")
 
     return str(np.round(result))
 
