@@ -30,6 +30,7 @@ class Data:
         self.merged_matrix_test=np.concatenate((np.matrix(np.ones(X_test_value.shape[1])).T,X_test_value.T,Y_test_value.T),axis=1)
 
         print(self.merged_matrix.shape)
+        print("this is file")
 
 
 
